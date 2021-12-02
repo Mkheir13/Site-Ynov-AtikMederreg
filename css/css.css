@@ -14,18 +14,19 @@
     opacity: 0.30;
     padding: 2%;
     height: 90%;
-    width: 25%;
+    width: 20%;
     position: absolute;
-    left: 70%;
+    left: 75%;
     top: 10%;
     border: black;
+    border-radius: 2%;
 }
 .colognegauche {
     background: black;
     opacity: 0.30;
     padding: 2%;
-    height: 90%;
-    width: 25%;
+    height: 40%;
+    width: 20%;
     position: absolute;
     left: 1%;
     top: 10%;
@@ -49,7 +50,7 @@
     transform: translate(-50%, -50%);
 }
 .backgroundpageone {
-    background:url(../img/desk.png)no-repeat center fixed ;
+    background:url(../img/background.png)no-repeat center fixed ;
     opacity: 1;
     background-size:cover ;
 }
@@ -73,4 +74,72 @@
 
   input[type=text]:focus {
     width: 70%;
+  }
+
+  .links-list-a {
+    background-image: url(../img/outlook.jpg);
+    border-radius: 4px;
+    background-position: center;
+    list-style-type: none;
+    background-size: cover;
+    text-decoration: none;
+    padding: 1em 2em;
+    padding: 2%;
+    height: 20%;
+    width: 43%;
+    position: absolute;
+    left: 26%;
+    top: 10%;
+    transition: all 1s ease;
+  }
+  
+  .links-list-a:hover {
+    background-color: rgb(144, 37, 206);
+    color: rgb(0, 0, 0);
+  }
+  .links-list-b {
+    background-image: url(../img/Hyper.png);
+    border-radius: 4px;
+    background-position: center;
+    list-style-type: none;
+    background-size: cover;
+    text-decoration: none;
+    padding: 1em 2em;
+    padding: 2%;
+    height: 20%;
+    width: 43%;
+    position: absolute;
+    left: 26%;
+    top: 40%;
+    transition: all 1s ease;
+  }
+  
+  .links-list-b:hover {
+    background-color: rgb(144, 37, 206);
+    color: rgb(0, 0, 0);
+  }
+  .links-list-c {
+    background-image: url(../img/Moodle.png);
+    border-radius: 4px;
+    list-style-type: none;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    padding: 1em 2em;
+    padding: 2%;
+    height: 20%;
+    width: 43%;
+    position: absolute;
+    left: 26%;
+    top: 70%;
+  }
+  
+  .links-list-c:hover {
+    background-color: rgb(144, 37, 206);
+    color: rgb(0, 0, 0);
+
+  }
+  .zoom {
+    height: 30%;
+    width: 53%;
   }

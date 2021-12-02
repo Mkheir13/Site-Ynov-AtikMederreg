@@ -11,4 +11,5 @@ function search() {
             x[i].style.display="list-item";                 
         }
     }
+    
 }
