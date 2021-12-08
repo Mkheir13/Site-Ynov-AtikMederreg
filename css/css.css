@@ -145,3 +145,8 @@
     height: 30%;
     width: 53%;
   }
+  .nom li{
+    font-size: large;
+    color: azure;
+    
+  }
