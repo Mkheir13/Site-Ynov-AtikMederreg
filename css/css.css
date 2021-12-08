@@ -10,16 +10,16 @@
     padding: 2%;
 }
 .colognedroite {
-    background: black;
-    opacity: 0.30;
+    background: rgba(0, 0, 0, 0.315);
     padding: 2%;
-    height: 90%;
+    height: 80%;
     width: 20%;
     position: absolute;
     left: 75%;
     top: 10%;
     border: black;
     border-radius: 2%;
+    list-style-type: none;
 }
 .colognegauche {
     background: black;
@@ -148,5 +148,6 @@
   .nom li{
     font-size: large;
     color: azure;
-    
+    list-style-type: none; 
+    padding: 10px;
   }
