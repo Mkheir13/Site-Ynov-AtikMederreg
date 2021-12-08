@@ -76,6 +76,7 @@
     width: 70%;
   }
 
+
   .links-list-a {
     background-image: url(../img/outlook.jpg);
     border-radius: 4px;
@@ -90,12 +91,12 @@
     position: absolute;
     left: 26%;
     top: 10%;
-    transition: all 1s ease;
+    filter:brightness(0.8);
   }
   
   .links-list-a:hover {
-    background-color: rgb(144, 37, 206);
-    color: rgb(0, 0, 0);
+      filter:brightness(1.1);
+      transform: scale(1.04);
   }
   .links-list-b {
     background-image: url(../img/Hyper.png);
@@ -111,12 +112,12 @@
     position: absolute;
     left: 26%;
     top: 40%;
-    transition: all 1s ease;
+    filter:brightness(0.8);
   }
   
   .links-list-b:hover {
-    background-color: rgb(144, 37, 206);
-    color: rgb(0, 0, 0);
+    filter:brightness(1.1);
+    transform: scale(1.04);
   }
   .links-list-c {
     background-image: url(../img/Moodle.png);
@@ -132,11 +133,12 @@
     position: absolute;
     left: 26%;
     top: 70%;
+    filter:brightness(0.8);
   }
   
   .links-list-c:hover {
-    background-color: rgb(144, 37, 206);
-    color: rgb(0, 0, 0);
+    filter:brightness(1.1);
+    transform: scale(1.04);
 
   }
   .zoom {
