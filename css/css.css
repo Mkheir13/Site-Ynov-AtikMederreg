@@ -16,6 +16,7 @@
     width: 20%;
     position: absolute;
     left: 75%;
+    font-family: serif;
     top: 10%;
     border: black;
     border-radius: 2%;
@@ -42,11 +43,11 @@
     transform: translate(-50%, -50%);
 }
 .imagelogo{
-    height: 10%;
-    width: 7%;
+    height: 8%;
+    width: 4%;
     position: absolute;
-    left: 4%;
-    top: 6%;
+    left: 3%;
+    top: 4%;
     transform: translate(-50%, -50%);
 }
 .backgroundpageone {
@@ -150,4 +151,9 @@
     color: azure;
     list-style-type: none; 
     padding: 10px;
+  }
+  .imgclasse{
+    height: 5%;
+    width: 7%;
+    position: absolute;
   }
