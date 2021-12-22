@@ -168,15 +168,34 @@
     text-decoration: none;
     padding: 1em 2em;
     padding: 2%;
-    height: 30%;
+    height: 20%;
     width: 20%;
     position: absolute;
     left: 1%;
-    top: 60%;
+    top: 70%;
     filter:brightness(0.8);
   }
   .ytrack:hover {
     filter:brightness(1.1);
     transform: scale(1.04);
 }
-    
+.linkedin{
+  background-image: url(../img/Linkedin.jpg);
+  border-radius: 4px;
+  list-style-type: none;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  padding: 1em 2em;
+  padding: 2%;
+  height: 5%;
+  width: 20%;
+  position: absolute;
+  left: 1%;
+  top: 57%;
+  filter:brightness(0.8);
+}
+.linkedin:hover {
+  filter:brightness(1.1);
+  transform: scale(1.04);
+  }
