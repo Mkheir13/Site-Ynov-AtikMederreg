@@ -160,7 +160,7 @@
     margin-top: 5%;
     }
   .ytrack {
-    background-image: url(../img/ytack.jpg);
+    background-image: url(../img/Ytrack.png);
     border-radius: 4px;
     list-style-type: none;
     background-position: center;
@@ -168,11 +168,11 @@
     text-decoration: none;
     padding: 1em 2em;
     padding: 2%;
-    height: 20%;
+    height: 30%;
     width: 20%;
     position: absolute;
     left: 1%;
-    top: 70%;
+    top: 60%;
     filter:brightness(0.8);
   }
     
