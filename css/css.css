@@ -175,4 +175,8 @@
     top: 60%;
     filter:brightness(0.8);
   }
+  .ytrack:hover {
+    filter:brightness(1.1);
+    transform: scale(1.04);
+}
     
