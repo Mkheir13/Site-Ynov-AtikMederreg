@@ -164,15 +164,15 @@
     border-radius: 4px;
     list-style-type: none;
     background-position: center;
-    background-size: cover;
+    background-size: 70%;
     text-decoration: none;
     padding: 1em 2em;
     padding: 2%;
-    height: 7%;
-    width: 21%;
+    height: 16%;
+    width: 20%;
     position: absolute;
     left: 1%;
-    top: 83%;
+    top: 74%;
     filter:brightness(0.8);
   }
   .ytrack:hover {
@@ -180,7 +180,7 @@
     transform: scale(1.04);
 }
 .linkedin{
-  background-image: url(../img/Linkedin.jpg);
+  background-image:  url(../img/lkdn.png);
   border-radius: 4px;
   list-style-type: none;
   background-position: center;
@@ -188,11 +188,11 @@
   text-decoration: none;
   padding: 1em 2em;
   padding: 2%;
-  height: 7%;
-  width: 21%;
+  height: 5%;
+  width: 20%;
   position: absolute;
   left: 1%;
-  top: 70%;
+  top: 60%;
   filter:brightness(0.8);
 }
 .linkedin:hover {
