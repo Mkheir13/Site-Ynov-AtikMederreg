@@ -22,14 +22,14 @@
     border-radius: 2%;
     list-style-type: none;
 }
-.colognegauche {
+.colognemilieu {
     background: black;
     opacity: 0.30;
     padding: 2%;
-    height: 40%;
-    width: 20%;
+    height: 80%;
+    width: 43%;
     position: absolute;
-    left: 1%;
+    left: 26%;
     top: 10%;
     border: black;
     border-radius: 2%;
@@ -78,7 +78,7 @@
   }
 
 
-  .links-list-a {
+  .outlook {
     background-image: url(../img/outlook.jpg);
     border-radius: 4px;
     background-position: center;
@@ -87,20 +87,20 @@
     text-decoration: none;
     padding: 1em 2em;
     padding: 2%;
-    height: 20%;
-    width: 43%;
+    height: 9%;
+    width: 20%;
     position: absolute;
-    left: 26%;
-    top: 10%;
+    left: 1%;
+    top: 28%;
     filter:brightness(0.8);
     animation:  0.4s 180ms ease-in both;
   }
   
-  .links-list-a:hover {
+  .outlook:hover {
       filter:brightness(1.1);
       transform: scale(1.04);
   }
-  .links-list-b {
+  .hyper {
     background-image: url(../img/Hyper.png);
     border-radius: 4px;
     background-position: center;
@@ -109,19 +109,19 @@
     text-decoration: none;
     padding: 1em 2em;
     padding: 2%;
-    height: 20%;
-    width: 43%;
+    height: 9%;
+    width: 20%;
     position: absolute;
-    left: 26%;
-    top: 40%;
+    left: 1%;
+    top: 45%;
     filter:brightness(0.8);
   }
   
-  .links-list-b:hover {
+  .hyper:hover {
     filter:brightness(1.1);
     transform: scale(1.04);
   }
-  .links-list-c {
+  .moodle {
     background-image: url(../img/Moodle.png);
     border-radius: 4px;
     list-style-type: none;
@@ -130,15 +130,15 @@
     text-decoration: none;
     padding: 1em 2em;
     padding: 2%;
-    height: 20%;
-    width: 43%;
+    height: 9%;
+    width: 20%;
     position: absolute;
-    left: 26%;
-    top: 70%;
+    left: 1%;
+    top: 62%;
     filter:brightness(0.8);
   }
   
-  .links-list-c:hover {
+  .moodle:hover {
     filter:brightness(1.1);
     transform: scale(1.04);
   }
@@ -164,15 +164,15 @@
     border-radius: 4px;
     list-style-type: none;
     background-position: center;
-    background-size: 70%;
+    background-size: cover;
     text-decoration: none;
     padding: 1em 2em;
     padding: 2%;
-    height: 16%;
+    height: 9%;
     width: 20%;
     position: absolute;
     left: 1%;
-    top: 74%;
+    top: 79%;
     filter:brightness(0.8);
   }
   .ytrack:hover {
@@ -188,14 +188,22 @@
   text-decoration: none;
   padding: 1em 2em;
   padding: 2%;
-  height: 5%;
+  height: 9%;
   width: 20%;
   position: absolute;
   left: 1%;
-  top: 60%;
+  top: 11%;
   filter:brightness(0.8);
 }
 .linkedin:hover {
   filter:brightness(1.1);
   transform: scale(1.04);
   }
+.footer {
+  position :fixed;
+  background: black;
+  opacity: 30%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
