@@ -223,3 +223,10 @@
     border: 1px solid #ccc;
   }
 }
+td {
+  border: 1px solid rgb(0, 0, 0);
+}
+td .imgclasse {
+  height: 68%;
+  width: 75%;
+}
