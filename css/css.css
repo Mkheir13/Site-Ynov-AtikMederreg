@@ -3,7 +3,7 @@
 
     margin: 0;
 }
-.colognedroite {
+.colonedroite {
     background: rgba(0, 0, 0, 0.315);
     padding: 2%;
     height: 80%;
@@ -15,10 +15,13 @@
     border: black;
     border-radius: 2%;
     list-style-type: none;
+    scrollbar-width: none;
 }
-.colognemilieu {
-    background: black;
-    opacity: 0.30;
+.colonedroite::-webkit-scrollbar {
+  display: none;
+}
+.colonemilieu {
+    background: rgba(0, 0, 0, 0.315);
     padding: 2%;
     height: 80%;
     width: 43%;
@@ -27,6 +30,10 @@
     top: 10%;
     border: black;
     border-radius: 2%;
+    scrollbar-width: none;
+}
+.colonemilieu::-webkit-scrollbar {
+  display: none;
 }
 .imagelogo{
     height: 6%;
@@ -119,9 +126,11 @@
   .imgclasse{
     height: 8%;
     width: 15%;
-    margin-right: 10%;
-    margin-top: 5%;
     }
+  .imgclassepost{
+      height: 40%;
+      width: 9%;
+      }
   .ytrack {
     background-image: url(../img/Ytrack.png);
     border-radius: 4px;
@@ -165,7 +174,7 @@
 /* Add a black background color to the top navigation bar */
 .header {
   overflow: hidden;
-  background-color: #1262daa4;
+  background-color: rgba(0, 0, 0, 0.315);
 }
 
 /* Style the links inside the navigation bar */
@@ -187,7 +196,7 @@
 
 /* Style the "active" element to highlight the current page */
 .header a.active {
-  background-color: #2196F3;
+  background-color: #3d95dd;
   color: white;
 }
 
@@ -338,4 +347,81 @@ ul{
   .footer-col{
     width: 100%;
 }
+}
+
+.post {
+  background: #3b3c3ed2;
+  padding: 2%;
+  height: 20%;
+  width: 94%;
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  border: black;
+  border-radius: 2%;
+}
+.post2 {
+  background: #3b3c3ed2;
+  padding: 2%;
+  height: 20%;
+  width: 94%;
+  position: absolute;
+  left: 1%;
+  top: 26%;
+  border: black;
+  border-radius: 2%;
+}
+.post3 {
+  background: #3b3c3ed2;
+  padding: 2%;
+  height: 20%;
+  width: 94%;
+  position: absolute;
+  left: 1%;
+  top: 51%;
+  border: black;
+  border-radius: 2%;
+}
+.post4 {
+  background: #3b3c3ed2;
+  padding: 2%;
+  height: 20%;
+  width: 94%;
+  position: absolute;
+  left: 1%;
+  top: 76%;
+  border: black;
+  border-radius: 2%;
+}
+.post5 {
+  background: #3b3c3ed2;
+  padding: 2%;
+  height: 20%;
+  width: 94%;
+  position: absolute;
+  left: 1%;
+  top: 102%;
+  border: black;
+  border-radius: 2%;
+}
+.text {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  font-size: 20px;
+  scrollbar-width: none;
+}
+.text::-webkit-scrollbar {
+  display: none;
+}
+
+.nom li {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.nom li img {
+  margin-right: 20px;
 }
