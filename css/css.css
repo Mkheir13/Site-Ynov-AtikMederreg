@@ -222,17 +222,34 @@
     border: 1px solid #ccc;
   }
 }
+
+#card_holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#card_holder > div {
+  width: 100%;
+  height: 100%;
+}
+
 .card {
-  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgb(104, 103, 103);
   max-width: 250px;
   margin: auto;
-  background:#ffffff;
+  background:#0CAADC;
   text-align: center;
 }
 
 .title {
-  color: grey;
+  color: rgb(255, 255, 255);
   font-size: 18px;
+}
+h1 {
+  color: #ffffff;
+}
+p {
+  color:#ffffff
 }
 
 button {
@@ -240,8 +257,8 @@ button {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color: #000;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -251,7 +268,7 @@ button {
 a {
   text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 button:hover, a:hover {
@@ -406,11 +423,15 @@ ul{
 }
 .text {
   border: none;
+  color: #ffffff;
   background-color: transparent;
   resize: none;
   outline: none;
-  font-size: 20px;
+  font-size: 18px;
   scrollbar-width: none;
+  left: 13%;
+  top: 25%;
+  position: absolute;
 }
 .text::-webkit-scrollbar {
   display: none;
