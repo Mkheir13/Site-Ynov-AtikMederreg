@@ -236,8 +236,8 @@
 .card {
   box-shadow: 0 4px 8px 0 rgb(104, 103, 103);
   max-width: 250px;
-  margin: auto;
-  background:#0CAADC;
+  margin: 1% 1%;
+  background: #00BBF9;
   text-align: center;
 }
 
