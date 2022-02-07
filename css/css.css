@@ -366,7 +366,14 @@ ul{
 }
 }
 
+.pseudokheir {
+  position: absolute;
+  left: 13%;
+  top: 10%;
+  color: aliceblue;
+}
 .post {
+
   background: #3b3c3ed2;
   padding: 2%;
   height: 20%;
