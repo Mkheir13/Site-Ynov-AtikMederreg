@@ -1,38 +1,14 @@
-var app = {
-    settings: {
-      container: $('.calendar'),
-      calendar: $('.front'),
-      days: $('.weeks span'),
-      form: $('.back'),
-      input: $('.back input'),
-      buttons: $('.back button')
-    },
-  
-    init: function() {
-      instance = this;
-      settings = this.settings;
-      this.bindUIActions();
-    },
-  
-    swap: function(currentSide, desiredSide) {
-      settings.container.toggleClass('flip');
-  
-      currentSide.fadeOut(900);
-      currentSide.hide();
-      desiredSide.show();
-  
-    },
-  
-    bindUIActions: function() {
-      settings.days.on('click', function(){
-        instance.swap(settings.calendar, settings.form);
-        settings.input.focus();
-      });
-  
-      settings.buttons.on('click', function(){
-        instance.swap(settings.form, settings.calendar);
-      });
+function search_class() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('imgclass');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
     }
-  }
-  
-  app.init();
+}

@@ -11,18 +11,18 @@
 </head>
 <body class="backgroundpageone">
     <div class="header">
-      <a class="active" href="#accueil">Accueil<img class="imagelogo" alt="image logo" src="../img/bdb.png"></a>
+      <a class="active" href="index.html">Accueil</a>
       <a class="elev" href="pageperso.html">Élèves</a>
-      <a href="planing.html">Planning</a>
-      <input type="text" placeholder="Search...">
+      <a  href="pageprof.html">Professeurs</a>
+      <img class="imagelogo" alt="image logo" src="../img/bdb.png">
+      <img class="imgkheir" alt="image compte" src="../img/kheir.png">
+      <p class="compte">Kheireddine.mederreg@gmail.com</p>
     </div>
     <div style="overflow-y:scroll;" class="colonemilieu">
       <div class="post"><img class="imgclassepost" alt="Photo Kheir-eddine" src="..//img/kheir.png"/>
         <p class="pseudokheir">Kheir-eddine</p>
         <p class="datekheir">08/02/2022 à 12H15</p>
-        <a class="apprendre"href="https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python">"https://Apprenez-les-bases-du-langage-python"</a>
-       <p>Hello, pour tout ceux qui ont encore un peu de mal à comprendre la logique / les bases de la programmation faites ce cours.
-        Même si c'est pas sur le Go c'est assez ressemblant et c'est bien expliqué: </p>
+        
       </div>
       <div class="post2"><img class="imgclassepost" alt="Photo Pierre" src="..//img/pierre.png"/>
         <p class="pseudopierre">Pierre</p>
@@ -52,6 +52,11 @@
     <a href="https://ytrack.learn.ynov.com"><div class="ytrack"></div></a>
     <a href="https://fr.linkedin.com"><div class="linkedin"></div></a>
     <div style="overflow-y:scroll;" class="colonedroite"><ul class="nom">
+      <div class="searchInputWrapper">
+        <input id="searchbar" onkeyup="search_class()" class="searchInput" type="text" placeholder='Qui cherche-tu ?'>
+        <i class="searchInputIcon fa fa-search"></i>
+        </input>
+      </div>
       <li><img class="imgclasse" alt="Photo Mounir" src="..//img/mounir.png"/>ABDELLAH Mounir</li>
       <li><img class="imgclasse" alt="Photo Mario" src="..//img/mario.png"/>AGBIDIHO Mario</li>
       <li><img class="imgclasse" alt="Photo Hind" src="..//img/hind.png"/>ATIK Hind</li>
@@ -113,7 +118,6 @@
                 <a href="https://www.linkedin.com/signup/cold-join?trk=guest_homepage-basic_nav-header-join"><i class="fab fa-linkedin-in"></i></a>
               </div>
               <div class="footer-coldeux">
-                <h4>follow us</h4>
                 <div class="social-links">
                   <a href="https://fr-fr.facebook.com"><i class="fab fa-facebook-f"></i></a>
                   <a href="https://twitter.com/?lang=fr"><i class="fab fa-twitter"></i></a>
@@ -124,6 +128,7 @@
           </div>
         </div>
      </footer>
+     <script src="./plan.js"></script>
 </body>
 </html>
  
