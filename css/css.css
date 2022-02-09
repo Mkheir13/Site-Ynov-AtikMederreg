@@ -137,7 +137,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   .imgclasse{
-    height: 8%;
+    height: 2%;
     width: 15%;
     display: list-item;
     }
@@ -251,6 +251,7 @@
   box-shadow: 0 4px 8px 0 rgb(104, 103, 103);
   max-width: 250px;
   margin: 1% 1%;
+  margin-left: 2%;
   background: #00BBF9;
   text-align: center;
 }
@@ -259,6 +260,19 @@
   color: rgb(255, 255, 255);
   font-size: 18px;
 }
+
+.troplong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.troplong:hover{
+  width: fit-content;
+  overflow: visible;
+  background-color: #08aae0;
+}
+
+
 h1 {
   color: #ffffff;
 }
@@ -655,4 +669,35 @@ body{
 
 .nav-link {
   color: #4a5568;
+}
+
+.card {
+  transition: all 0.3s;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+@media (orientation: portrait) {
+  .card {
+    margin: 5% 5%;
+    max-width: 155px;
+    max-height: 355px;
+  }
+  .compte {
+    display: none;
+  }
+  .imgkheir {
+    display: none;
+  }
+  .imagelogo {
+    display: none;
+  }
+  #card_holder {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
