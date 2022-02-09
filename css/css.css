@@ -327,7 +327,7 @@ ul{
 }
 .footer-col{
    width: 25%;
-   padding: 0 15px;
+   padding: 2px 15px;
 }
 .footer-col h4{
 	font-size: 18px;
@@ -582,6 +582,16 @@ ul{
   border-radius: 2%;
 }
 
+.reply {
+  height: 10%;
+  width: 3%;
+  left: 90%;
+  top: 80%;
+  position: absolute;
+}
+.reply:hover {
+  filter: brightness(1.5);
+}
 .text {
   border: none;
   color: #ffffff;
