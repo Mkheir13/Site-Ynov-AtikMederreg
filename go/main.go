@@ -94,7 +94,7 @@ func main() {
 	})
 
   http.HandleFunc("/students", func(w http.ResponseWriter, r *http.Request) {
-		studentTemplate.Execute(w, nil)
+		studentTemplate.Execute(w, viewData)
 	})
 
   http.HandleFunc("/enseignants", func(w http.ResponseWriter, r *http.Request) {
