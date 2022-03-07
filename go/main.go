@@ -70,6 +70,8 @@ func main() {
 	fmt.Println("\nStarting server -> localhost:80")
 
 	indexTemplate := template.Must(template.ParseFiles("../src/index.html"))
+  studentTemplate := template.Must(template.ParseFiles("../src/pageperso.html"))
+  enseignantsTemplate := template.Must(template.ParseFiles("../src/pageprof.html"))
 
 	cssFolder := http.FileServer(http.Dir("../css"))
 	http.Handle("/css/", http.StripPrefix("/css/", cssFolder))
@@ -89,6 +91,14 @@ func main() {
 		} else {
 			indexTemplate.Execute(w, viewData)
 		}
+	})
+
+  http.HandleFunc("/students", func(w http.ResponseWriter, r *http.Request) {
+		studentTemplate.Execute(w, nil)
+	})
+
+  http.HandleFunc("/enseignants", func(w http.ResponseWriter, r *http.Request) {
+		enseignantsTemplate.Execute(w, nil)
 	})
 
 	http.ListenAndServe(":80", nil)
