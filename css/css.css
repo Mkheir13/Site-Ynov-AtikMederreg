@@ -57,7 +57,7 @@
   top: 1.5%;
 }
 .backgroundpageone {
-    background:url(../img/wall.jpg)no-repeat center fixed ;
+    background:url(..//img/wall.jpg)no-repeat center fixed ;
     opacity: 1;
     background-size:cover ;
 }
@@ -78,7 +78,7 @@
     filter:brightness(0.8);
     animation:  0.4s 180ms ease-in both;
   }
-  
+
   .outlook:hover {
       filter:brightness(1.1);
       transform: scale(1.04);
@@ -99,7 +99,7 @@
     top: 45%;
     filter:brightness(0.8);
   }
-  
+
   .hyper:hover {
     filter:brightness(1.1);
     transform: scale(1.04);
@@ -120,12 +120,12 @@
     top: 62%;
     filter:brightness(0.8);
   }
-  
+
   .moodle:hover {
     filter:brightness(1.1);
     transform: scale(1.04);
   }
-  
+
   .zoom {
     height: 30%;
     width: 53%;
@@ -634,7 +634,7 @@ ul{
 .searchInput {
   width: 17rem;
   height: 2rem;
-  padding: 0 1rem; 
+  padding: 0 1rem;
   border-radius: 2rem;
   border: none;
   transition: transform 0.1s ease-in-out;
@@ -663,7 +663,7 @@ ul{
   transition: all 0.1s ease-in-out;
 }
 
-.container:focus-within > 
+.container:focus-within >
 .searchInputWrapper > .searchInputIcon {
   right: 0.2rem;
 }
@@ -671,7 +671,7 @@ body{
 
   color: #1a202c;
   text-align: left;
-  background-color: #e2e8f0;    
+  background-color: #e2e8f0;
 }
 .main-body {
   padding: 15px;
