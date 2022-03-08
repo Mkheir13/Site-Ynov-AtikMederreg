@@ -20,6 +20,21 @@ type ViewData struct {
 		Github   string `json:"Github,omitempty"`
 		Linkedin string `json:"Linkedin,omitempty"`
 	} `json:"Etudiants"`
+	Intervenants []struct {
+		Nom    string `json:"Nom"`
+		Prenom string `json:"Prenom"`
+		Email  string `json:"Email"`
+		Photo  string `json:"Photo"`
+	} `json:"Intervenants"`
+}
+
+type Profil struct {
+	Nom      string `json:"Nom"`
+	Prenom   string `json:"Prenom"`
+	Email    string `json:"Email"`
+	Photo    string `json:"Photo"`
+	Github   string `json:"Github,omitempty"`
+	Linkedin string `json:"Linkedin,omitempty"`
 }
 
 func loadAPI() ViewData {
@@ -71,6 +86,7 @@ func main() {
 	indexTemplate := template.Must(template.ParseFiles("../src/index.html"))
 	studentTemplate := template.Must(template.ParseFiles("../src/pageperso.html"))
 	enseignantsTemplate := template.Must(template.ParseFiles("../src/pageprof.html"))
+	profilTemplate := template.Must(template.ParseFiles("../src/profil.html"))
 
 	cssFolder := http.FileServer(http.Dir("../css"))
 	http.Handle("/css/", http.StripPrefix("/css/", cssFolder))
@@ -98,6 +114,20 @@ func main() {
 
 	http.HandleFunc("/enseignants", func(w http.ResponseWriter, r *http.Request) {
 		enseignantsTemplate.Execute(w, nil)
+	})
+
+	http.HandleFunc("/profil/", func(w http.ResponseWriter, r *http.Request) {
+		profil := Profil{}
+		id := strings.ReplaceAll(r.URL.Path, "localhost/profil/", "")
+		id = strings.ReplaceAll(r.URL.Path, "/profil/", "") // idk why but I need this to work
+		for _, student := range viewData.Etudiants {
+			if student.Prenom == id {
+				profil = student
+				break
+			}
+		}
+
+		profilTemplate.Execute(w, profil)
 	})
 
 	http.ListenAndServe(":80", nil)
