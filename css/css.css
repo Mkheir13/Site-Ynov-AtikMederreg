@@ -57,7 +57,7 @@
   top: 1.5%;
 }
 .backgroundpageone {
-    background:url(..//img/wall.jpg)no-repeat center fixed ;
+    background:url(..//img/wallpaper.jpg)no-repeat center fixed ;
     opacity: 1;
     background-size:cover ;
 }
@@ -710,4 +710,23 @@ body{
     display: flex;
     flex-wrap: wrap;
   }
+}
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxforcard {
+  width: 70%;
+  height: 650px;
+  border-radius: 2%;
+  margin: 20px;
+  background-color: #226CE0;
+}
+.imgforbox{
+  width: 15%;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: row;
 }

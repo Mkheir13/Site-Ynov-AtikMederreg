@@ -7,19 +7,19 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	"time"
 	"strings"
+	"time"
 )
 
 type ViewData struct {
-	Result []struct {
+	Etudiants []struct {
 		Nom      string `json:"Nom"`
 		Prenom   string `json:"Prenom"`
 		Email    string `json:"Email"`
-    Photo    string `json:"Photo"`
+		Photo    string `json:"Photo"`
 		Github   string `json:"Github,omitempty"`
 		Linkedin string `json:"Linkedin,omitempty"`
-	} `json:"result"`
+	} `json:"Etudiants"`
 }
 
 func loadAPI() ViewData {
@@ -63,28 +63,27 @@ func loadAPI() ViewData {
 	return vd
 }
 
-
 func main() {
 	viewData := loadAPI()
 
 	fmt.Println("\nStarting server -> localhost:80")
 
 	indexTemplate := template.Must(template.ParseFiles("../src/index.html"))
-  studentTemplate := template.Must(template.ParseFiles("../src/pageperso.html"))
-  enseignantsTemplate := template.Must(template.ParseFiles("../src/pageprof.html"))
+	studentTemplate := template.Must(template.ParseFiles("../src/pageperso.html"))
+	enseignantsTemplate := template.Must(template.ParseFiles("../src/pageprof.html"))
 
 	cssFolder := http.FileServer(http.Dir("../css"))
 	http.Handle("/css/", http.StripPrefix("/css/", cssFolder))
-  imgFolder := http.FileServer(http.Dir("../img"))
+	imgFolder := http.FileServer(http.Dir("../img"))
 	http.Handle("/img/", http.StripPrefix("/img/", imgFolder))
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		search := r.FormValue("searchBar")
 		if search != "" {
 			filteredViewData := ViewData{}
-			for _, student := range viewData.Result {
-				if (strings.Contains(strings.ToLower(student.Nom), strings.ToLower(search)) || strings.Contains(strings.ToLower(student.Prenom), strings.ToLower(search))) {
-					filteredViewData.Result = append(filteredViewData.Result, student)
+			for _, student := range viewData.Etudiants {
+				if strings.Contains(strings.ToLower(student.Nom), strings.ToLower(search)) || strings.Contains(strings.ToLower(student.Prenom), strings.ToLower(search)) {
+					filteredViewData.Etudiants = append(filteredViewData.Etudiants, student)
 				}
 			}
 			indexTemplate.Execute(w, filteredViewData)
@@ -93,11 +92,11 @@ func main() {
 		}
 	})
 
-  http.HandleFunc("/students", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/students", func(w http.ResponseWriter, r *http.Request) {
 		studentTemplate.Execute(w, viewData)
 	})
 
-  http.HandleFunc("/enseignants", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/enseignants", func(w http.ResponseWriter, r *http.Request) {
 		enseignantsTemplate.Execute(w, nil)
 	})
 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../css/css.css" />
+    <title>Eleves</title>
+    <link rel="icon" href="../img/bdb.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body class="backgroundpageone">
+        <div class="header">
+          <a href="index.html">Accueil<img class="imagelogo" alt="image logo" src="../img/bdb.png"></a>
+          <a class="active" href="pageperso.html">Élèves</a>
+          <a href="pageprof.html">Intervenant</a>
+          <img class="imgkheir" alt="image compte" src="../img/kheir.png">
+      <p class="compte">Kheireddine.mederreg@gmail.com</p>
+        </div>
+        <div class="contain">
+            <div class="boxforcard">
+                {{range .Etudiants}}
+                <img class="imgforbox" src="../img/mounir.png">
+                <p>Nom: {{.Nom}}</p>
+            </div>
+    </div>
+</body>
+</html>
