@@ -63,14 +63,14 @@
 }
   .outlook {
     background-image: url(../img/outlook.jpg);
-    border-radius: 4px;
+    border-radius: 40px;
     background-position: center;
     list-style-type: none;
     background-size: cover;
     text-decoration: none;
     padding: 1em 2em;
     padding: 2%;
-    height: 9%;
+    height: 5%;
     width: 20%;
     position: absolute;
     left: 1%;
@@ -85,14 +85,14 @@
   }
   .hyper {
     background-image: url(../img/Hyper.png);
-    border-radius: 4px;
+    border-radius: 40px;
     background-position: center;
     list-style-type: none;
     background-size: cover;
     text-decoration: none;
     padding: 1em 2em;
     padding: 2%;
-    height: 9%;
+    height: 5%;
     width: 20%;
     position: absolute;
     left: 1%;
@@ -106,14 +106,14 @@
   }
   .moodle {
     background-image: url(../img/Moodle.png);
-    border-radius: 4px;
+    border-radius: 40px;
     list-style-type: none;
     background-position: center;
     background-size: cover;
     text-decoration: none;
     padding: 1em 2em;
     padding: 2%;
-    height: 9%;
+    height: 5%;
     width: 20%;
     position: absolute;
     left: 1%;
@@ -149,14 +149,14 @@
       }
   .ytrack {
     background-image: url(../img/Ytrack.png);
-    border-radius: 4px;
+    border-radius: 40px;
     list-style-type: none;
     background-position: center;
     background-size: cover;
     text-decoration: none;
     padding: 1em 2em;
     padding: 2%;
-    height: 9%;
+    height: 5%;
     width: 20%;
     position: absolute;
     left: 1%;
@@ -169,14 +169,14 @@
 }
 .linkedin{
   background-image:  url(../img/lkdn.png);
-  border-radius: 4px;
+  border-radius: 40px;
   list-style-type: none;
   background-position: center;
   background-size: cover;
   text-decoration: none;
   padding: 1em 2em;
   padding: 2%;
-  height: 9%;
+  height: 5%;
   width: 20%;
   position: absolute;
   left: 1%;
@@ -197,7 +197,7 @@
 .header a {
   float: left;
   display:flex;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -717,6 +717,15 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hind {
+  padding: 3%;
+}
+.kheir {
+  padding: 3%;
+}
+.ben {
+  padding: 3%;
 }
 .boxforcard {
   width: 70%;
