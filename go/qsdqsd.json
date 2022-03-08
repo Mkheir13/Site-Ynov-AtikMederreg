@@ -1,4 +1,0 @@
-http.HandleFunc("/students/", func(w http.ResponseWriter, r *http.Request) {
-	id := strings.ReplaceAll(r.URL.path, "/movie/", "")
-	url := "localhost/" + id
-})
