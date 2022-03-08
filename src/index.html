@@ -57,12 +57,12 @@
     </div>
     <a href="https://ytrack.learn.ynov.com"><div class="ytrack"></div></a>
     <a href="https://fr.linkedin.com"><div class="linkedin"></div></a>
-    <form method="POST" style="overflow-y:scroll;" class="colonedroite"><div class="searchInputWrapper">
+    <form method="POST " style="overflow-y:scroll;" class="colonedroite"><div class="searchInputWrapper">
       <input id="searchbar" onkeyup="search_class()" class="searchInput" type="text" placeholder='Qui cherche-tu ?' name="searchBar">
       <input type="submit" value="Rechercher">
     </form><ul class="nom">
-      {{range .Result}}
-        <li><img class="imgclasse" alt="Photo {{.Prenom}}" src="{{.Photo}}"/>{{.Nom}} {{.Prenom}}</li>
+      {{range .Etudiants}}
+        <li><a href="/profil/{{.Prenom}}"><img class="imgclasse" alt="Photo {{.Prenom}}" src="{{.Photo}}"/>{{.Nom}} {{.Prenom}}</li></a>
       {{end}}
     </ul></div>
       <div><a class="outlook" href="https://outlook.office.com/mail/inbox"></a></div>
