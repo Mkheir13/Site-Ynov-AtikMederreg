@@ -83,7 +83,7 @@ func loadAPI() ViewData {
 }
 
 func main() {
-	fmt.Println("\nStarting server -> http://localhost/")
+	fmt.Println("Starting server :\nhttp://localhost/ \n")
 	viewData := loadAPI()
 
 	indexTemplate := template.Must(template.ParseFiles("../src/index.html"))
