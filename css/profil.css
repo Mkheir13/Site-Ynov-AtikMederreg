@@ -1,0 +1,32 @@
+#body {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profil {
+  background: rgba(0, 0, 0, 0.315);
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 50vw;
+  height: 75vh;
+  padding: 2.5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profil_pic {
+  width: 50%;
+}
+
+#profil p {
+  font-size: 28px;
+}
+
+button {
+  margin-top: 1vh;
+}

@@ -5,24 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="../css/css.css" />
+    <link type="text/css" rel="stylesheet" href="../css/profil.css" />
     <title>Intervenant</title>
     <link rel="icon" href="../img/bdb.ico" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="backgroundpageone">
-        <div class="header">
-          <a href="/">Accueil<img class="imagelogo" alt="image logo" src="../img/bdb.png"></a>
-          <a href="/students">Élèves</a>
-          <a class="active" href="/enseignants">Intervenant</a>
-          <img class="imgkheir" alt="image compte" src="../img/kheir.png">
+    <div class="header">
+      <a href="/">Accueil<img class="imagelogo" alt="image logo" src="../img/bdb.png"></a>
+      <a href="/students">Élèves</a>
+      <a href="/enseignants">Intervenant</a>
+      <img class="imgkheir" alt="image compte" src="../img/kheir.png">
       <p class="compte">Kheireddine.mederreg@gmail.com</p>
-        </div>
+    </div>
 
-        <div class="card">
-          <img src="{{.Photo}}" style="width:90%">
-          <h4>{{.Nom}} {{.Prenom}}</h4>
-          <p class="title troplong">{{.Email}}</p>
-          <p>Ynov Campus Aix-En-Provence</p>
+    <div id="body">
+      <div id="profil">
+        <img id="profil_pic" src="{{.Photo}}">
+        <h4 id="profil_name">{{.Nom}} {{.Prenom}}</h4>
+        <p>{{.Email}}</p>
+        <p>Ynov Campus Aix-En-Provence</p>
+        <div>
           {{if .Github}}
             <a href="{{.Github}}"><i class="fa fa-github"></i></a>
           {{end}}
@@ -30,8 +33,11 @@
           {{if .Linkedin}}
             <a href="{{.Linkedin}}"><i class="fa fa-linkedin"></i></a>
           {{end}}
-          <p><button>Voir portfolio</button></p>
         </div>
+        <button>Voir portfolio</button>
+        <button onclick="location.href='/'">Retour</button>
+      </div>
+    </div>
 
     </body>
     </html>

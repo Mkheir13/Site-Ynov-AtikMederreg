@@ -60,7 +60,8 @@
     <form method="POST " style="overflow-y:scroll;" class="colonedroite"><div class="searchInputWrapper">
       <input id="searchbar" onkeyup="search_class()" class="searchInput" type="text" placeholder='Qui cherche-tu ?' name="searchBar">
       <input type="submit" value="Rechercher">
-    </form><ul class="nom">
+    </form>
+    <ul class="nom">
       {{range .Etudiants}}
         <li><a href="/profil/{{.Prenom}}"><img class="imgclasse" alt="Photo {{.Prenom}}" src="{{.Photo}}"/>{{.Nom}} {{.Prenom}}</li></a>
       {{end}}
