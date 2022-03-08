@@ -19,61 +19,15 @@
         </div>
         <div id="card_holder">
           <div class="card">
-            <img src="../img/lucas.png" alt="Lucas" style="width:90%">
-            <h4>DOMINGUEZ Lucas</h4>
+            {{range .Intervenants}}
+            <img src="{{.Photo}}" alt="Lucas" style="width:90%">
+            <h4>{{.Nom}} {{.Prenom}}</h4>
             <p class="title">Mentor</p>
-            <p>lucas.dominguez84@ynov.com</p>
+            <p>{{.Email}}</p>
             <a href="#"><i class="fa fa-github"></i></a>
             <a href="https://fr.linkedin.com/in/mounir-abdellah-870562220"><i class="fa fa-linkedin"></i></a>
           </div>
-          <div class="card">
-            <img src="../img/alan.png" alt="Alan" style="width:90%">
-            <h4>PHILIPIERT Alan</h4>
-            <p class="title">Étudiant - Mentor</p>
-            <p>alan.philipiert13@ynov.com</p>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="https://fr.linkedin.com/in/mounir-abdellah-870562220"><i class="fa fa-linkedin"></i></a>
-          </div>
-          <div class="card">
-            <img src="../img/pace.png" alt="Pace" style="width:90%">
-            <h4>PACE Fabio</h4>
-            <p class="title">Intervenant Réseaux</p>
-            <p>fabio.pace83@ynov.com</p>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="https://fr.linkedin.com/in/mounir-abdellah-870562220"><i class="fa fa-linkedin"></i></a>
-          </div>
-          <div class="card">
-            <img src="../img/gabriel.png" alt="Gabriel" style="width:90%">
-            <h4>EMMANUEL Gabriel</h4>
-            <p class="title">Étudiant - Mentor</p>
-            <p>gabriel.emmanuel13@ynov.com</p>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="https://fr.linkedin.com/in/mounir-abdellah-870562220"><i class="fa fa-linkedin"></i></a>
-          </div>
-          <div class="card">
-            <img src="../img/gaulmin.png" alt="Gaulmin" style="width:90%">
-            <h4>GAULMIN Julien</h4>
-            <p class="title">Intervenant Linux</p>
-            <p>julien.gaulmin@ynov.com</p>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="https://fr.linkedin.com/in/mounir-abdellah-870562220"><i class="fa fa-linkedin"></i></a>
-          </div>
-          <div class="card">
-            <img src="../img/palermo.png" alt="Palermo" style="width:90%">
-            <h4>PALERMO David</h4>
-            <p class="title">Intervenant Python</p>
-            <p>David.PALERMO@ynov.com</p>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="https://fr.linkedin.com/in/mounir-abdellah-870562220"><i class="fa fa-linkedin"></i></a>
-          </div>
-          <div class="card">
-            <img src="../img/nouet.png" alt="Nouet" style="width:90%">
-            <h4>NOUET Sébastien</h4>
-            <p class="title">Intervenant API</p>
-            <p>sebastien.nouet@ynov.com</p>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="https://fr.linkedin.com/in/mounir-abdellah-870562220"><i class="fa fa-linkedin"></i></a>
-          </div>
+          {{end}}
         </div>
     </body>
     </html>
