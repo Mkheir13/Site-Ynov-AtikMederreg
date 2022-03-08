@@ -38,6 +38,9 @@ type Profil struct {
 }
 
 func loadAPI() ViewData {
+	fmt.Println("Loading API from :")
+	fmt.Println("https://raw.githubusercontent.com/Nimajjj/groupie-tracker/main/API/etudiant.json")
+
 	vd := ViewData{}
 
 	url := "https://raw.githubusercontent.com/Nimajjj/groupie-tracker/main/API/etudiant.json"
@@ -75,13 +78,13 @@ func loadAPI() ViewData {
 		log.Fatal(jsonErr)
 	}
 
+	fmt.Println("API loaded successfully.")
 	return vd
 }
 
 func main() {
+	fmt.Println("\nStarting server -> http://localhost/")
 	viewData := loadAPI()
-
-	fmt.Println("\nStarting server -> localhost:80")
 
 	indexTemplate := template.Must(template.ParseFiles("../src/index.html"))
 	studentTemplate := template.Must(template.ParseFiles("../src/pageperso.html"))
