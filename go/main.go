@@ -1,90 +1,15 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"html/template"
-	"io/ioutil"
-	"log"
 	"net/http"
 	"strings"
-	"time"
 )
 
-type ViewData struct {
-	Etudiants []struct {
-		Nom      string `json:"Nom"`
-		Prenom   string `json:"Prenom"`
-		Email    string `json:"Email"`
-		Photo    string `json:"Photo"`
-		Github   string `json:"Github,omitempty"`
-		Linkedin string `json:"Linkedin,omitempty"`
-	} `json:"Etudiants"`
-	Intervenants []struct {
-		Nom    string `json:"Nom"`
-		Prenom string `json:"Prenom"`
-		Email  string `json:"Email"`
-		Photo  string `json:"Photo"`
-	} `json:"Intervenants"`
-}
-
-type Profil struct {
-	Nom      string `json:"Nom"`
-	Prenom   string `json:"Prenom"`
-	Email    string `json:"Email"`
-	Photo    string `json:"Photo"`
-	Github   string `json:"Github,omitempty"`
-	Linkedin string `json:"Linkedin,omitempty"`
-}
-
-func loadAPI() ViewData {
-	fmt.Println("Loading API from :")
-	fmt.Println("https://raw.githubusercontent.com/Nimajjj/groupie-tracker/main/API/etudiant.json")
-
-	vd := ViewData{}
-
-	url := "https://raw.githubusercontent.com/Nimajjj/groupie-tracker/main/API/etudiant.json"
-
-	httpClient := http.Client{
-		Timeout: time.Second * 2, // define timeout
-	}
-
-	//create request
-	req, err := http.NewRequest(http.MethodGet, url, nil)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	req.Header.Set("User-Agent", "API AT test <3")
-
-	//make api call
-	res, getErr := httpClient.Do(req)
-	if getErr != nil {
-		log.Fatal(getErr)
-	}
-
-	if res.Body != nil {
-		defer res.Body.Close()
-	}
-
-	//parse response
-	body, readErr := ioutil.ReadAll(res.Body)
-	if readErr != nil {
-		log.Fatal(readErr)
-	}
-
-	jsonErr := json.Unmarshal(body, &vd)
-	if jsonErr != nil {
-		log.Fatal(jsonErr)
-	}
-
-	fmt.Println("API loaded successfully.")
-	return vd
-}
-
 func main() {
-	fmt.Println("Starting server :\nhttp://localhost/ \n")
-	viewData := loadAPI()
+	fmt.Println("Starting server :\n\thttp://localhost/")
+	viewData := LoadAPI("https://raw.githubusercontent.com/Nimajjj/groupie-tracker/main/API/etudiant.json")
 
 	indexTemplate := template.Must(template.ParseFiles("../src/index.html"))
 	studentTemplate := template.Must(template.ParseFiles("../src/pageperso.html"))
