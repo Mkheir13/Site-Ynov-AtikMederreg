@@ -17,6 +17,7 @@ type ViewData struct {
 	} `json:"Intervenants"`
 }
 
+
 type Profil struct {
 	Nom      string `json:"Nom"`
 	Prenom   string `json:"Prenom"`

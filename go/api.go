@@ -45,6 +45,7 @@ func LoadAPI(url string) ViewData {
 
 	jsonErr := json.Unmarshal(body, &vd)
 	if jsonErr != nil {
+		return vd
 		log.Fatal(jsonErr)
 	}
 
