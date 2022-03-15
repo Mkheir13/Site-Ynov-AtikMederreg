@@ -18,15 +18,15 @@
       <p class="compte">Kheireddine.mederreg@gmail.com</p>
         </div>
         <div id="card_holder">
-          <div class="card">
-            {{range .Intervenants}}
-            <img src="{{.Photo}}" alt="Lucas" style="width:90%">
-            <h4>{{.Nom}} {{.Prenom}}</h4>
-            <p class="title">Mentor</p>
-            <p>{{.Email}}</p>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="https://fr.linkedin.com/in/mounir-abdellah-870562220"><i class="fa fa-linkedin"></i></a>
-          </div>
+          {{range .Intervenants}}
+            <div class="card">
+              <img src="{{.Photo}}" alt="{{.Prenom}}" style="width:90%">
+              <h4>{{.Nom}} {{.Prenom}}</h4>
+              <p class="title">Mentor</p>
+              <p>{{.Email}}</p>
+              <a href="#"><i class="fa fa-github"></i></a>
+              <a href="https://fr.linkedin.com/in/mounir-abdellah-870562220"><i class="fa fa-linkedin"></i></a>
+            </div>
           {{end}}
         </div>
     </body>
