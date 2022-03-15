@@ -206,7 +206,7 @@
 
 /* Change the color of links on hover */
 .header a:hover {
-  background-color: rgb(194, 203, 219);
+  background-color: rgb(106, 146, 214);
   color: black;
 }
 
@@ -661,7 +661,7 @@ ul{
   position: absolute;
   right: 0.8rem;
   top: 0.5rem;
-  color: #a1a1a1;
+  color: #5792c9;
   transition: all 0.1s ease-in-out;
 }
 
