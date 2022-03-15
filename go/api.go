@@ -45,8 +45,8 @@ func LoadAPI(url string) ViewData {
 
 	jsonErr := json.Unmarshal(body, &vd)
 	if jsonErr != nil {
-		return vd
-		log.Fatal(jsonErr)
+		print("### Error : Unable to load API.")
+		return ViewData{}
 	}
 
 	fmt.Println("API loaded successfully.")
