@@ -30,7 +30,6 @@ func main() {
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		if apiFuckedUp {
-			fmt.Println("fdsfdsqfdsqfdsqfsqdzqf")
 			http.Redirect(w, r, "/noAPI", 303)
 			return
 		}
@@ -49,6 +48,10 @@ func main() {
 	})
 
 	http.HandleFunc("/students", func(w http.ResponseWriter, r *http.Request) {
+		if apiFuckedUp {
+			http.Redirect(w, r, "/noAPI", 303)
+			return
+		}
 		studentTemplate.Execute(w, viewData)
 	})
 
@@ -57,10 +60,18 @@ func main() {
 	})
 
 	http.HandleFunc("/enseignants", func(w http.ResponseWriter, r *http.Request) {
+		if apiFuckedUp {
+			http.Redirect(w, r, "/noAPI", 303)
+			return
+		}
 		enseignantsTemplate.Execute(w, viewData)
 	})
 
 	http.HandleFunc("/profil/", func(w http.ResponseWriter, r *http.Request) {
+		if apiFuckedUp {
+			http.Redirect(w, r, "/noAPI", 303)
+			return
+		}
 		profil := Profil{}
 		id := strings.ReplaceAll(r.URL.Path, "localhost/profil/", "")
 		id = strings.ReplaceAll(r.URL.Path, "/profil/", "") // idk why but I need this to work
