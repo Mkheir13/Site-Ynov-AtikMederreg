@@ -1,3 +1,15 @@
+# Groupie Tracker : Projet API
+Project by Kheir-Eddine Mederreg and Benjamin Borello
+Ynov 2021/2022
+
+###Fonctionnalités API B-One:
+1. Affichage des tous les étudiants dans un menu déroulant sur la page d'accueil.
+2. Fonction de recherche des étudiants par nom et/ou prénom sur la page d'accueil.
+3. Affichage d'une fiche étudiant accessible depuis le menu déroulant.
+4. Affichage de la liste des étudiants depuis la page "étudiant".
+5. Affichage de la liste des intervenant depuis la page "intervenants".
+
+
 # Site-Ynov-AtikMederreg
 Project By Hind ATIK and Kheir-eddine Mederreg
 Ynov 2021/2022
