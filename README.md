@@ -2,7 +2,7 @@
 Project by Kheir-Eddine Mederreg and Benjamin Borello
 Ynov 2021/2022
 
-###Fonctionnalités API B-One:
+### Fonctionnalités API B-One:
 1. Affichage des tous les étudiants dans un menu déroulant sur la page d'accueil.
 2. Fonction de recherche des étudiants par nom et/ou prénom sur la page d'accueil.
 3. Affichage d'une fiche étudiant accessible depuis le menu déroulant.
