@@ -9,7 +9,7 @@ import (
 
 func main() {
 	fmt.Println("Starting server :\n\thttp://localhost/")
-	viewData := LoadAPI("https://raw.githubusercontent.com/Nimajjj/groupie-tracker/main/API/etudiant.json")
+	viewData := LoadAPI("etudiant.json")
 
 	indexTemplate := template.Must(template.ParseFiles("../src/index.html"))
 	studentTemplate := template.Must(template.ParseFiles("../src/pageperso.html"))
