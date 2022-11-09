@@ -1,0 +1,297 @@
+{
+  "Etudiants": [
+    {
+      "Nom": "ABDELLAH",
+      "Prenom": "Mounir",
+      "Email": "mounir.abdellah@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/mounir.png?raw=true"
+    },
+    {
+      "Nom": "AGBIDIHO",
+      "Prenom": "Mario",
+      "Email": "mario.agbidiho@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/mario.png?raw=true"
+    },
+    {
+      "Nom": "ATIK",
+      "Prenom": "Hind",
+      "Email": "hind.atik@ynov.com",
+      "Github": "https://github.com/hindatik",
+      "Linkedin": "https://fr.linkedin.com/in/hind-atik-1a03631b7",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/hind.png?raw=true"
+    },
+    {
+      "Nom": "BALATRE",
+      "Prenom": "Grégory",
+      "Email": "gregory.balatre@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/gregory-balatre-6a2187220/?trk=people-guest_people_search-card&originalSubdomain=fr\"",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/gregory.png?raw=true"
+    },
+    {
+      "Nom": "BORELLO",
+      "Prenom": "Benjamin",
+      "Email": "benjamin.borello@ynov.com",
+      "Github": "https://github.com/Nimajjj",
+      "Linkedin": "https://www.linkedin.com/in/benjamin-borello-89b562220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/ben.png?raw=true"
+    },
+    {
+      "Nom": "BOUKLI HACENE",
+      "Prenom": "Melvyn",
+      "Email": "melvyn.bouklihacenedimuzio@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/melvyn-boukli-780568220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/melvyn.png?raw=true"
+    },
+    {
+      "Nom": "CARRILLO OSORIO",
+      "Prenom": "Cristian",
+      "Email": "cristiancamilo.carrillo@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/cristian-carrillo-7260bb179/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/christian.png?raw=true"
+    },
+    {
+      "Nom": "CHORRO",
+      "Prenom": "Valentin",
+      "Email": "valentin.chorro@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/valentin.png?raw=true"
+    },
+    {
+      "Nom": "COLETTA CHAMBON",
+      "Prenom": "Quentin",
+      "Email": "quentin.colettachambon@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/quentin.png?raw=true"
+    },
+    {
+      "Nom": "COLLESI-POMELLA",
+      "Prenom": "Romain",
+      "Email": "romain.collesipomella@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/collesi-romain-7005b7220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/romain.png?raw=true"
+    },
+    {
+      "Nom": "CONRAUX",
+      "Prenom": "Sam",
+      "Email": "sam.conraux@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/sam-conraux-a7a563220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/sam.png?raw=true"
+    },
+    {
+      "Nom": "COUESPEL",
+      "Prenom": "Nathan",
+      "Email": "nathan.couespel@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/nathan.png?raw=true"
+    },
+    {
+      "Nom": "DESBOURDES",
+      "Prenom": "Amaury",
+      "Email": "amaury.desbourdes@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/amaury-desbourdes-b56568220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/amaury.png?raw=true"
+    },
+    {
+      "Nom": "GIROMAGNY",
+      "Prenom": "Alexis",
+      "Email": "alexis.giromagny@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/alexis-giromagny-25a18a220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/alexis.png?raw=true"
+    },
+    {
+      "Nom": "JEHAM",
+      "Prenom": "Laurie",
+      "Email": "laurie.jeham@ynov.com",
+      "Github": "https://github.com/Lunasphys",
+      "Linkedin": "https://www.linkedin.com/in/laurie-jeham-9156a6168/",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/Laurie.png?raw=true"
+    },
+    {
+      "Nom": "LANDO",
+      "Prenom": "Anthony",
+      "Email": "antony.lando@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/antony-lando-3a5564220/",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/silhouette.png?raw=true"
+    },
+    {
+      "Nom": "MARTHELY",
+      "Prenom": "Davy",
+      "Email": "davy.marthely@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/davy.png?raw=true"
+    },
+    {
+      "Nom": "MEDERREG",
+      "Prenom": "Kheir-eddine",
+      "Email": "kheireddine.mederreg@ynov.com",
+      "Github": "https://github.com/Mkheir13",
+      "Linkedin": "https://www.linkedin.com/in/kheir-eddine-mederreg-a4a563220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/kheir.png?raw=true"
+    },
+    {
+      "Nom": "MISTRAL",
+      "Prenom": "Olivier",
+      "Email": "olivier.mistral@ynov.com",
+      "Github": "https://github.com/Bahsiik",
+      "Linkedin": "https://www.linkedin.com/in/olivier-mistral-6a6673121/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/olivier.png?raw=true"
+    },
+    {
+      "Nom": "MOUNIER",
+      "Prenom": "Matthieu",
+      "Email": "matthieu.mounier@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/matthieu-mounier-225188220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/mathieu.png?raw=true"
+    },
+    {
+      "Nom": "OBRY",
+      "Prenom": "Maxime",
+      "Email": "maxime.obry@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/maxime-obry-a79565220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/max.png?raw=true"
+    },
+    {
+      "Nom": "PERROT-NASI",
+      "Prenom": "Mateo",
+      "Email": "mateo.perrotnasi@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/mateo.png?raw=true"
+    },
+    {
+      "Nom": "PHAM",
+      "Prenom": "Guillaume",
+      "Email": "guillaume.pham@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/guillaume-pham-892562220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/guillaume.png?raw=true"
+    },
+    {
+      "Nom": "PIZZETA",
+      "Prenom": "Antoine",
+      "Email": "antoine.pizzetta@ynov.com",
+      "Github": "https://github.com/antaww",
+      "Linkedin": "https://www.linkedin.com/in/antoine-pizzetta-7b4568220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/antoine.png?raw=true"
+    },
+    {
+      "Nom": "POESTCH",
+      "Prenom": "Arthur",
+      "Email": "artur.poetsch@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/artur-poetsch-66a187220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/arthur.png?raw=true"
+    },
+    {
+      "Nom": "QUADRO",
+      "Prenom": "Thomas",
+      "Email": "thomas.quadro@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/thomas-quadro-575a6921b/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/thomas.png?raw=true"
+    },
+    {
+      "Nom": "ROCCHI",
+      "Prenom": "Alexandre",
+      "Email": "alexandre.rocchi@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/alexandre-rocchi-39418a220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/alexandre.png?raw=true"
+    },
+    {
+      "Nom": "RODRIGUES",
+      "Prenom": "Cyril",
+      "Email": "cyril.rodrigues@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/cyril-rodrigues-b09558214/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/cyril.png?raw=true"
+    },
+    {
+      "Nom": "ROY",
+      "Prenom": "Pierre",
+      "Email": "pierre.roy@ynov.com",
+      "Github": "https://github.com/Ayfri",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/pierre.png?raw=true"
+    },
+    {
+      "Nom": "SEVENET",
+      "Prenom": "Axel",
+      "Email": "axel.sevenet@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/silhouette.png?raw=true"
+    },
+    {
+      "Nom": "TAMBON",
+      "Prenom": "Jules",
+      "Email": "jules.tambon@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/jules-tambon-211284218/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/jules.png?raw=true"
+    },
+    {
+      "Nom": "TERRASSE",
+      "Prenom": "Victor",
+      "Email": "victor.terrasse@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/victor-terrasse-81b188220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/silhouette.png?raw=true"
+    },
+    {
+      "Nom": "TOMATIS",
+      "Prenom": "Margot",
+      "Email": "margot.tomatis@ynov.com",
+      "Github": "https://github.com/xhmyjae",
+      "Linkedin": "https://www.linkedin.com/in/margot-tomatis-00a151209/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/margot.png?raw=true"
+    },
+    {
+      "Nom": "VORTICE",
+      "Prenom": "Oscar",
+      "Email": "oscar.vortice@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/silhouette.png?raw=true"
+    },
+    {
+      "Nom": "YAHIA BERROUIGUET",
+      "Prenom": "Djilali",
+      "Email": "djilali.yahiaberrouiguet@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/djillali.png?raw=true"
+    },
+    {
+      "Nom": "ZELPATI",
+      "Prenom": "Nolan",
+      "Email": "nolan.zelphati@ynov.com",
+      "Linkedin": "https://www.linkedin.com/in/nolan-zelphati-a3b565220/?originalSubdomain=fr",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/nolan.png?raw=true"
+    }
+  ],
+  "Intervenants": [
+    {
+      "Nom": "DOMINGUEZ",
+      "Prenom": "Lucas",
+      "Email": "lucas.dominguez84@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/lucas.png?raw=true"
+    },
+    {
+      "Nom": "PHILIPIERT",
+      "Prenom": "Alan",
+      "Email": "alan.philipiert13@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/alan.png?raw=true"
+    },
+    {
+      "Nom": "PACE",
+      "Prenom": "Fabio",
+      "Email": "fabio.pace83@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/pace.png?raw=true"
+    },
+    {
+      "Nom": "EMMANUEL",
+      "Prenom": "Gabriel",
+      "Email": "gabriel.emmanuel13@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/gabriel.png?raw=true"
+    },
+    {
+      "Nom": "GAULMIN ",
+      "Prenom": "Julien",
+      "Email": "julien.gaulmin@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/gaulmin.png?raw=true"
+    },
+    {
+      "Nom": "PALERMO",
+      "Prenom": "David",
+      "Email": "David.PALERMO@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/palermo.png?raw=true"
+    },
+    {
+      "Nom": "NOUET",
+      "Prenom": "Sébastien",
+      "Email": "sebastien.nouet@ynov.com",
+      "Photo": "https://github.com/Mkheir13/Site-Ynov-AtikMederreg/blob/main/img/nouet.png?raw=true"
+    }
+  ]
+}
